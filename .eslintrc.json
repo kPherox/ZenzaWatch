@@ -19,6 +19,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "spaced-comment": ["error", "always", {"markers": ["/"]}],
         "semi": "off",
         "@typescript-eslint/semi": ["error"],
         "@typescript-eslint/member-delimiter-style": ["error"]
