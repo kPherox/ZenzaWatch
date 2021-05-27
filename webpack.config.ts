@@ -30,6 +30,14 @@ const config: Configuration = {
   module: {
     rules: [
       {
+        test: /(\.|\/)worker.ts$/,
+        loader: 'worker-loader',
+        options: {
+          worker: 'Worker',
+          inline: 'no-fallback',
+        },
+      },
+      {
         test: /\.ts$/,
         loader: 'ts-loader',
       },

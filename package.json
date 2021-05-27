@@ -29,6 +29,7 @@
     "@typescript-eslint/parser": "^4.22.0",
     "eslint": "^7.25.0",
     "eslint-config-google": "^0.14.0",
+    "fake-indexeddb": "^3.1.2",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "mocha": "^8.3.2",
@@ -39,6 +40,7 @@
     "typescript": "^4.2.4",
     "webpack": "^5.36.2",
     "webpack-cli": "^4.6.0",
-    "webpack-merge": "^5.7.3"
+    "webpack-merge": "^5.7.3",
+    "worker-loader": "^3.0.8"
   }
 }
