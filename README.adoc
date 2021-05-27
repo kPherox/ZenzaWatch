@@ -1,0 +1,31 @@
+= ZenzaWatch
+
+<https://github.com/segabito/ZenzaWatch> を TypeScript + WebPack で書き直すやつ
+
+== Installation
+将来的に greasyfork.org にアップロードするかも
+
+== Development
+[source,bash]
+----
+# 依存関係のインストールとgit hooksの追加
+npm install
+
+# development mode で UserScript 生成
+npm run build:dev
+# production mode で UserScript 生成
+npm run build:prod
+
+# テスト
+npm test
+# ファイル変更を検知してテスト
+npm run test:watch
+
+# TypeScript の型チェック
+npm run check-type
+
+# コードフォーマットチェック
+npm run lint
+# コード整形
+npm run lint:fix
+----
